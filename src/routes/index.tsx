@@ -118,6 +118,7 @@ function Home() {
         <Categories />
         <Services />
         <Products />
+        <Gallery />
         <Download />
       </main>
       <Footer />
