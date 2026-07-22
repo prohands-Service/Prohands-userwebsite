@@ -387,9 +387,6 @@ function Products() {
                 </span>
               )}
               <h3 className="font-display text-2xl font-semibold text-silver">{p.name}</h3>
-              <div className="mt-2 font-display text-3xl font-bold text-gradient-neon">
-                {p.price}
-              </div>
               <p className="mt-3 text-sm text-muted-foreground">{p.desc}</p>
               <ul className="mt-6 space-y-2">
                 {p.perks.map((perk) => (
