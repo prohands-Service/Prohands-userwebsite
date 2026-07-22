@@ -35,7 +35,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "Fast, reliable home services from verified pros. Download ProHands on iOS and Android.",
+          "ProHands connects you with verified technicians for plumbing, electrical, AC, cleaning and more. Download the app on Google Play and the App Store.",
       },
     ],
   }),
