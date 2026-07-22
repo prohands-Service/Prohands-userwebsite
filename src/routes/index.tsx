@@ -413,6 +413,38 @@ function Products() {
   );
 }
 
+function Gallery() {
+  return (
+    <section id="gallery" className="border-t border-border/50 py-24">
+      <div className="mx-auto max-w-7xl px-6">
+        <SectionHeader
+          eyebrow="Inside the app"
+          title={<>A peek into <span className="text-gradient-neon">ProHands</span></>}
+          subtitle="Screens from the ProHands mobile app — clean, fast and built for real homes."
+        />
+        <div className="mt-14 grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
+          {gallery.map((src, i) => (
+            <a
+              key={src}
+              href={PLAY_URL}
+              target="_blank"
+              rel="noreferrer"
+              className="group relative overflow-hidden rounded-2xl border border-border/60 bg-surface transition-all hover:-translate-y-1 hover:border-primary/60 hover:shadow-neon"
+            >
+              <img
+                src={src}
+                alt={`ProHands app screen ${i + 1}`}
+                loading="lazy"
+                className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+              />
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
 function Download() {
   return (
     <section id="download" className="relative overflow-hidden py-24">
