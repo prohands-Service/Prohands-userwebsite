@@ -79,22 +79,34 @@ const services = [
 const products = [
   {
     name: "AC Deep Service",
-    price: "From $29",
     desc: "Full coil clean, gas check and performance report.",
     perks: ["Foam-jet cleaning", "60-day warranty", "Verified pro"],
   },
   {
     name: "Home Deep Clean",
-    price: "From $49",
     desc: "Kitchen, bathroom and living areas with pro-grade tools.",
     perks: ["3 hr session", "Eco-safe products", "Insured team"],
   },
   {
     name: "Electrical Safety Check",
-    price: "From $19",
     desc: "Full home wiring, board and earthing inspection.",
     perks: ["Digital report", "Load testing", "Certified electrician"],
   },
+];
+
+const gallery = [
+  "https://play-lh.googleusercontent.com/12USW7aflgz466ifDehKTnMoAep_VHxDmKJ6jEBoDZWCSefOC-ThRX14Mqe0r8KF9XCzrpMqJts=w512",
+  "https://play-lh.googleusercontent.com/4x58G2kZR4cS5oNom3KX8XBuMRao9Eu3CqItpXRhYDk_DYVMb8Pbxi12q5hBJOAuvukyc60g9SBLkL-7drGNarY=w512",
+  "https://play-lh.googleusercontent.com/5MY0wiLVD7fKBPLCGY49xiFUdrhE4kUBRHNR3kpb1AY44TKAdL-ZOWlCN4xmQ1nBWpEVTfWDeQzMkl37PVz4AQ=w512",
+  "https://play-lh.googleusercontent.com/BHKAqoVDgAUK8mC99Ka-yf5O4rDLl9GVErWXn3nMPQFyDPqj6hJ9bHrpkhkn2JWY8-8OLALgPuv7l3reuo5ukcI=w512",
+  "https://play-lh.googleusercontent.com/MUBq05f_jtOJ3DFIOsgX_4HBYm4mvAOLjufy2irfaqGHpf9-T02_bNNSgcrYvz8d29CpXJ2jQMhAjc4W8N7UXg=w512",
+  "https://play-lh.googleusercontent.com/NHp69JMDNmKuUEefx5b99q7B4y9fsNq2yQCPN_xMx58cS-QSFwrdoJvOT-IN-uPLFWdwMRQrUHx6P05daE72rA=w512",
+  "https://play-lh.googleusercontent.com/OBVqgRK7eerY0GPfK8AOzitu5oE9ecC6kG4kURTCb1K41gpqVsN0WjmJwJh-wX8vILzpcc1kYHt56aLN2g=w512",
+  "https://play-lh.googleusercontent.com/Qgp-Glc5oTghhbEhS5Zlo8fPY7L3adA2yHmZQToP6D9ygbv3nFzqC7y0vqsQ3jXKfTI74wKuI2Z6YrRbRZpJYA=w512",
+  "https://play-lh.googleusercontent.com/dpOImtSiRqKpHK6V328Z39jG81ZUCB3NjjHjXC1KA6_E4gnScB7_qTSWdX8aCO47m9u9NZnHB1irZLbV0gSy7j0=w512",
+  "https://play-lh.googleusercontent.com/kXrHHJjxZArZN5K8Ldwx2d5LGJ37OK7qJH5_jeYafOnp89cNnOt8K-McIuGBvoCLS3N3uCRdjmfbQeiw3K8U_w=w512",
+  "https://play-lh.googleusercontent.com/rGYxNSLq61Qxi4WcdC5rNN0I3QeKnCDKt_OzQm3O5clptB3lB-5OEME-nrsZuQ0CGEWViJramt4Orc2GpmziyTQ=w512",
+  "https://play-lh.googleusercontent.com/vTL4zzIdngsVZlJ8tQvJTGWGFqzklZCAfg8eu4BvjC_NfPxj-ZOWqr3QHfFXN671u4OhyIxS2WTCSl6Rpt7Yzg=w512",
 ];
 
 function Home() {
