@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useState, useEffect } from "react";
 import logoImg from "@/assets/prohands-logo.jpg";
-import heroImg from "@/assets/hero-technician.png";
+import heroVideo from "@/assets/Hero-section-video.mp4";
 import {
   fetchCategories,
   fetchGalleryFeeds,
@@ -303,25 +303,19 @@ function Hero() {
             style={{ background: "var(--gradient-neon)" }}
           />
           <div className="glow-ring relative overflow-hidden rounded-2xl sm:rounded-3xl border border-border/60 bg-surface">
-            <img
-              src={heroImg}
-              alt="Verified ProHands technician at work"
-              width={1600}
-              height={1200}
+            <video
+              src={heroVideo}
+              autoPlay
+              loop
+              muted
+              playsInline
               className="h-64 sm:h-80 md:h-[380px] lg:h-[420px] xl:h-[460px] w-full object-cover"
             />
-            <div className="absolute bottom-3 left-3 right-3 sm:bottom-4 sm:left-4 sm:right-4 flex items-center justify-between rounded-xl sm:rounded-2xl border border-border/60 bg-background/85 p-3 sm:p-4 backdrop-blur-xl">
-              <div className="flex items-center gap-2.5 sm:gap-3">
-                <img src={logoImg} alt="" className="h-8 w-8 sm:h-10 sm:w-10 rounded-full object-cover shadow-sm" />
-                <div>
-                  <div className="text-xs sm:text-sm font-semibold text-silver">"ProHands is incredibly reliable!"</div>
-                  <div className="text-[10px] sm:text-xs text-muted-foreground">Verified Customer</div>
-                </div>
-              </div>
-              <span className="rounded-full bg-secondary/20 px-2.5 py-0.5 sm:px-3 sm:py-1 text-[10px] sm:text-xs font-semibold text-secondary">
-                ★ 5.0 Rated
-              </span>
-            </div>
+            <img
+              src={logoImg}
+              alt="ProHands Logo"
+              className="absolute bottom-1 right-1 sm:bottom-2 sm:right-2 h-14 w-14 sm:h-18 sm:w-18 rounded-full object-cover shadow-lg"
+            />
           </div>
         </div>
       </div>
