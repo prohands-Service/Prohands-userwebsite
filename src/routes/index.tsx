@@ -6,8 +6,10 @@ import {
   fetchCategories,
   fetchGalleryFeeds,
   getImageUrl,
+  fetchSupportSettings,
   type BackendCategory,
   type BackendGalleryItem,
+  type SupportSettings,
 } from "@/lib/api";
 import {
   Wrench,
@@ -786,6 +788,22 @@ function Download() {
 }
 
 function Footer() {
+  const [support, setSupport] = useState<SupportSettings | null>(null);
+
+  useEffect(() => {
+    let active = true;
+    fetchSupportSettings().then((data) => {
+      if (active) setSupport(data);
+    });
+    return () => {
+      active = false;
+    };
+  }, []);
+
+  const displayPhone = support?.formattedPhone || "+91 96338 23236";
+  const rawPhone = support?.supportPhone || "9633823236";
+  const displayEmail = support?.supportEmail || "support@prohands.in";
+
   return (
     <footer className="border-t border-border/60 bg-background">
       <div className="mx-auto grid max-w-7xl gap-8 sm:gap-10 px-4 sm:px-6 py-8 md:py-12 sm:grid-cols-2 lg:grid-cols-4">
@@ -816,8 +834,18 @@ function Footer() {
         <div>
           <div className="text-xs sm:text-sm font-semibold text-silver">Get in touch</div>
           <ul className="mt-3 sm:mt-4 space-y-2.5 sm:space-y-3 text-xs sm:text-sm text-muted-foreground">
-            <li className="flex items-center gap-2"><Phone className="h-3.5 w-3.5 sm:h-4 sm:w-4 text-primary shrink-0" /> +91 96338 23236</li>
-            <li className="flex items-center gap-2"><Mail className="h-3.5 w-3.5 sm:h-4 sm:w-4 text-primary shrink-0" /> support@prohands.in</li>
+            <li className="flex items-center gap-2">
+              <Phone className="h-3.5 w-3.5 sm:h-4 sm:w-4 text-primary shrink-0" />
+              <a href={`tel:${rawPhone}`} className="hover:text-primary transition-colors">
+                {displayPhone}
+              </a>
+            </li>
+            <li className="flex items-center gap-2">
+              <Mail className="h-3.5 w-3.5 sm:h-4 sm:w-4 text-primary shrink-0" />
+              <a href={`mailto:${displayEmail}`} className="hover:text-primary transition-colors">
+                {displayEmail}
+              </a>
+            </li>
             <li className="flex items-start gap-2">
               <MapPin className="mt-1 h-3.5 w-3.5 sm:h-4 sm:w-4 text-primary shrink-0" />
               <span>

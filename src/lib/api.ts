@@ -65,3 +65,28 @@ export async function fetchGalleryFeeds(): Promise<BackendGalleryItem[]> {
   }
   return [];
 }
+
+export interface SupportSettings {
+  success: boolean;
+  supportPhone: string;
+  formattedPhone: string;
+  whatsappPhone: string;
+  supportEmail: string;
+}
+
+export async function fetchSupportSettings(): Promise<SupportSettings> {
+  try {
+    const res = await fetch(`${API_BASE_URL}/api/support`);
+    if (!res.ok) throw new Error(`HTTP error ${res.status}`);
+    return await res.json();
+  } catch (err) {
+    console.error("Failed to fetch support settings:", err);
+    return {
+      success: false,
+      supportPhone: "9744146638",
+      formattedPhone: "+91 9744146638",
+      whatsappPhone: "919744146638",
+      supportEmail: "support@prohands.in"
+    };
+  }
+}
