@@ -282,7 +282,7 @@ function Hero() {
           </span>
           <h1 className="mt-4 sm:mt-5 font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] tracking-tight">
             Home services,{" "}
-            <span className="text-gradient-neon">reimagined</span> for the modern home.
+            <span className="text-gradient-neon">Reimagined</span> for the modern home.
           </h1>
           <p className="mt-4 sm:mt-5 max-w-xl text-sm sm:text-base md:text-lg text-muted-foreground leading-relaxed">
             ProHands connects you with verified technicians for plumbing, electrical, AC, cleaning
