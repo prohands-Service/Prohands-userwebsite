@@ -281,7 +281,7 @@ function Hero() {
             Trusted by 10,000+ homes
           </span>
           <h1 className="mt-4 sm:mt-5 font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] tracking-tight">
-            Home services,{" "}
+            {/* Home services,{" "} */}
             <span className="text-gradient-neon">Reimagined</span> for the modern home.
           </h1>
           <p className="mt-4 sm:mt-5 max-w-xl text-sm sm:text-base md:text-lg text-muted-foreground leading-relaxed">
