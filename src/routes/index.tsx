@@ -43,17 +43,17 @@ const APPLE_URL = "https://apps.apple.com/app/prohands/id6761731392";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "ProHands — Book Trusted Home Service Technicians" },
+      { title: "PreHands — Book Trusted Home Service Technicians" },
       {
         name: "description",
         content:
-          "ProHands connects you with verified technicians for plumbing, electrical, AC, cleaning and more. Download the app on Google Play and the App Store.",
+          "PreHands connects you with verified technicians for plumbing, electrical, AC, cleaning and more. Download the app on Google Play and the App Store.",
       },
-      { property: "og:title", content: "ProHands — Book Trusted Home Service Technicians" },
+      { property: "og:title", content: "PreHands — Book Trusted Home Service Technicians" },
       {
         property: "og:description",
         content:
-          "ProHands connects you with verified technicians for plumbing, electrical, AC, cleaning and more. Download the app on Google Play and the App Store.",
+          "PreHands connects you with verified technicians for plumbing, electrical, AC, cleaning and more. Download the app on Google Play and the App Store.",
       },
     ],
   }),
@@ -166,9 +166,9 @@ function Header() {
     <header className="sticky top-0 z-50 border-b border-border/60 bg-background/85 backdrop-blur-xl">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 md:py-3.5">
         <a href="#top" className="flex items-center gap-2.5 sm:gap-3 transition-opacity hover:opacity-90">
-          <img src={logoImg} alt="ProHands" className="h-8 w-8 sm:h-9 sm:w-9 md:h-10 md:w-10 rounded-full object-cover shadow-sm" />
+          <img src={logoImg} alt="PreHands" className="h-8 w-8 sm:h-9 sm:w-9 md:h-10 md:w-10 rounded-full object-cover shadow-sm" />
           <span className="font-display text-base sm:text-lg font-semibold tracking-tight text-silver">
-            Pro<span className="text-gradient-neon">Hands</span>
+            Pre<span className="text-gradient-neon">Hands</span>
           </span>
         </a>
 
@@ -285,7 +285,7 @@ function Hero() {
             <span className="text-gradient-neon">Reimagined</span> for the modern home.
           </h1>
           <p className="mt-4 sm:mt-5 max-w-xl text-sm sm:text-base md:text-lg text-muted-foreground leading-relaxed">
-            ProHands connects you with verified technicians for plumbing, electrical, AC, cleaning
+            PreHands connects you with verified technicians for plumbing, electrical, AC, cleaning
             and every job in between. Book in seconds — right from the app.
           </p>
           <div className="mt-6 sm:mt-8 flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4">
@@ -315,7 +315,7 @@ function Hero() {
             />
             <img
               src={logoImg}
-              alt="ProHands Logo"
+              alt="PreHands Logo"
               className="absolute bottom-1 right-1 sm:bottom-2 sm:right-2 h-14 w-14 sm:h-18 sm:w-18 rounded-full object-cover shadow-lg"
             />
           </div>
@@ -385,7 +385,7 @@ function AboutUs() {
     {
       icon: Zap,
       title: "Simplicity",
-      desc: "We know that creating simple things is hard. At ProHands, we fight back against complexity, sweat the details, and choose to deliver simple-yet-great experiences for our customers. Start simple. Test, Learn, Iterate.",
+      desc: "We know that creating simple things is hard. At PreHands, we fight back against complexity, sweat the details, and choose to deliver simple-yet-great experiences for our customers. Start simple. Test, Learn, Iterate.",
     },
     {
       icon: Users,
@@ -419,22 +419,22 @@ function AboutUs() {
         <div className="mt-10 sm:mt-14 grid gap-8 lg:grid-cols-2 lg:gap-12 items-start">
           <div className="flex flex-col gap-6 text-sm sm:text-base text-justify text-muted-foreground leading-relaxed">
             <p>
-              <strong className="text-silver">PROHANDS</strong> is a technology-driven platform that connects homeowners, building owners, and businesses with trusted, skilled, and verified service professionals for a wide range of home and building services. Whether you need plumbing, electrical work, cleaning, painting, carpentry, appliance repair, or other professional services, PROHANDS makes finding the right expert simple, fast, and reliable.
+              <strong className="text-silver">PREHANDS</strong> is a technology-driven platform that connects homeowners, building owners, and businesses with trusted, skilled, and verified service professionals for a wide range of home and building services. Whether you need plumbing, electrical work, cleaning, painting, carpentry, appliance repair, or other professional services, PREHANDS makes finding the right expert simple, fast, and reliable.
             </p>
             <p>
               Our mission is to deliver exceptional home and building service experiences by bringing customers and qualified professionals together through a secure and easy-to-use platform. We are committed to quality, transparency, reliability, and customer satisfaction, ensuring every service request is handled with professionalism and care.
             </p>
             <p>
-              Beyond connecting customers with skilled technicians, PROHANDS also empowers service providers by offering a smart work management platform that helps them grow their business, manage bookings efficiently, and reach more customers.
+              Beyond connecting customers with skilled technicians, PREHANDS also empowers service providers by offering a smart work management platform that helps them grow their business, manage bookings efficiently, and reach more customers.
             </p>
             <p>
-              PROHANDS is the brand name of our platform, while the company is legally registered as PRE HANDS LLP. Throughout the platform, the names PROHANDS and PRE HANDS refer to the same organization.
+              PREHANDS is the brand name of our platform, while the company is legally registered as PRE HANDS LLP. Throughout the platform, the names PREHANDS and PRE HANDS refer to the same organization.
             </p>
             <p>
               As we continue to grow, our goal remains the same—to build a trusted community where customers can confidently access quality services, and service professionals can build successful careers.
             </p>
             <p>
-              At PROHANDS, we're not just connecting people with services—we're building lasting relationships based on trust, quality, and excellence.
+              At PREHANDS, we're not just connecting people with services—we're building lasting relationships based on trust, quality, and excellence.
             </p>
           </div>
           
@@ -459,7 +459,7 @@ function AboutUs() {
                 <h3 className="font-display text-xl font-bold text-silver">Our Vision</h3>
               </div>
               <p className="text-sm text-muted-foreground leading-relaxed">
-                At ProHands, we're not just creating a new era of homeownership; we're building stronger communities and supporting local economies. We connect local professionals with busy homeowners every day, helping small businesses thrive across the country. By leveling the playing field for all businesses, we aim to ensure that everyone has an equal chance of success.
+                At PreHands, we're not just creating a new era of homeownership; we're building stronger communities and supporting local economies. We connect local professionals with busy homeowners every day, helping small businesses thrive across the country. By leveling the playing field for all businesses, we aim to ensure that everyone has an equal chance of success.
               </p>
             </div>
           </div>
@@ -568,7 +568,7 @@ function Services() {
         <SectionHeader
           eyebrow="What we do"
           title={<>Services built around <span className="text-gradient-neon">your day</span></>}
-          subtitle="From urgent breakdowns to weekend makeovers, ProHands makes it effortless to get things fixed."
+          subtitle="From urgent breakdowns to weekend makeovers, PreHands makes it effortless to get things fixed."
         />
         <div className="mt-10 sm:mt-14 grid gap-4 sm:gap-6 md:grid-cols-2">
           {services.map((s) => (
@@ -612,7 +612,7 @@ function Products() {
         <SectionHeader
           eyebrow="Popular in the app"
           title={<>Ready-to-book <span className="text-gradient-neon">service packs</span></>}
-          subtitle="Fixed-scope service packages with transparent pricing — book right inside the ProHands app."
+          subtitle="Fixed-scope service packages with transparent pricing — book right inside the PreHands app."
         />
         <div className="mt-10 sm:mt-14 grid gap-4 sm:gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {products.map((p, i) => (
@@ -676,7 +676,7 @@ function Gallery() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <SectionHeader
           eyebrow="Inside the app"
-          title={<>A peek into <span className="text-gradient-neon">ProHands</span></>}
+          title={<>A peek into <span className="text-gradient-neon">PreHands</span></>}
           subtitle="Explore live feeds, technician updates, and recent work straight from our active service teams."
         />
 
@@ -706,7 +706,7 @@ function Gallery() {
                         <div className="relative aspect-square w-full overflow-hidden bg-surface">
                           <img
                             src={fullUrl}
-                            alt={item.description || "ProHands feed update"}
+                            alt={item.description || "PreHands feed update"}
                             loading="lazy"
                             className="h-full w-full object-cover transition-transform duration-500 group-hover/item:scale-105"
                           />
@@ -758,10 +758,10 @@ function Download() {
                 Get the app
               </div>
               <h2 className="mt-2.5 sm:mt-3 font-display text-2xl sm:text-4xl md:text-5xl font-bold">
-                Your home, in <span className="text-gradient-neon">pro hands</span>.
+                Your home, in <span className="text-gradient-neon">pre hands</span>.
               </h2>
               <p className="mt-3 sm:mt-4 max-w-md text-xs sm:text-sm md:text-base text-muted-foreground leading-relaxed">
-                Download ProHands to book, track and message your technician in real time. Available
+                Download PreHands to book, track and message your technician in real time. Available
                 free on Google Play and the App Store.
               </p>
               <div className="mt-6 sm:mt-8 flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4">
@@ -776,7 +776,7 @@ function Download() {
               />
               <img
                 src={logoImg}
-                alt="ProHands logo"
+                alt="PreHands logo"
                 className="relative h-44 w-44 sm:h-56 sm:w-56 md:h-64 md:w-64 rounded-full object-cover drop-shadow-2xl shadow-neon"
               />
             </div>
@@ -809,9 +809,9 @@ function Footer() {
       <div className="mx-auto grid max-w-7xl gap-8 sm:gap-10 px-4 sm:px-6 py-8 md:py-12 sm:grid-cols-2 lg:grid-cols-4">
         <div>
           <div className="flex items-center gap-3">
-            <img src={logoImg} alt="ProHands" className="h-9 w-9 sm:h-10 sm:w-10 rounded-full object-cover" />
+            <img src={logoImg} alt="PreHands" className="h-9 w-9 sm:h-10 sm:w-10 rounded-full object-cover" />
             <span className="font-display text-base sm:text-lg font-semibold">
-              Pro<span className="text-gradient-neon">Hands</span>
+              Pre<span className="text-gradient-neon">Hands</span>
             </span>
           </div>
           <p className="mt-3 sm:mt-4 text-xs sm:text-sm text-muted-foreground leading-relaxed">
@@ -869,7 +869,7 @@ function Footer() {
 
       <div className="border-t border-border/60">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 px-4 sm:px-6 py-5 sm:py-6 text-[11px] sm:text-xs text-muted-foreground md:flex-row text-center md:text-left">
-          <div>© {new Date().getFullYear()} ProHands by Luzidcraft. All rights reserved.</div>
+          <div>© {new Date().getFullYear()} PreHands by Luzidcraft. All rights reserved.</div>
           <div>Crafted with care for homes everywhere.</div>
         </div>
       </div>

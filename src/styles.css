@@ -41,7 +41,7 @@
 :root {
   --radius: 0.875rem;
 
-  /* Dark, tech-forward palette pulled from the ProHands logo */
+  /* Dark, tech-forward palette pulled from the PreHands logo */
   --background: oklch(0.16 0.02 240);
   --foreground: oklch(0.96 0.01 240);
   --surface: oklch(0.21 0.02 240);

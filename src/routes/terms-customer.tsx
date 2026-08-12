@@ -12,9 +12,9 @@ function TermsCustomer() {
       <header className="sticky top-0 z-50 border-b border-border/60 bg-background/85 backdrop-blur-xl">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 md:py-3.5">
           <Link to="/" className="flex items-center gap-2.5 sm:gap-3 transition-opacity hover:opacity-90">
-            <img src={logoImg} alt="ProHands" className="h-8 w-8 sm:h-9 sm:w-9 md:h-10 md:w-10 rounded-full object-cover shadow-sm" />
+            <img src={logoImg} alt="PreHands" className="h-8 w-8 sm:h-9 sm:w-9 md:h-10 md:w-10 rounded-full object-cover shadow-sm" />
             <span className="font-display text-base sm:text-lg font-semibold tracking-tight text-silver">
-              Pro<span className="text-gradient-neon">Hands</span>
+              Pre<span className="text-gradient-neon">Hands</span>
             </span>
           </Link>
           <Link to="/" className="inline-flex items-center gap-2 text-sm font-medium text-muted-foreground transition-colors hover:text-primary">
@@ -35,13 +35,13 @@ function TermsCustomer() {
 
         <div className="space-y-8 text-sm sm:text-base text-muted-foreground leading-relaxed">
           <p>
-            These Terms and Conditions govern your use of the ProHands platform to book home-based services. By using our Services, you agree to these terms.
+            These Terms and Conditions govern your use of the PreHands platform to book home-based services. By using our Services, you agree to these terms.
           </p>
 
           <section className="space-y-4 pt-6 border-t border-border/40">
             <h2 className="text-2xl font-bold text-silver">1. Services Provided</h2>
             <p>
-              ProHands enables you to book services with independent Service Professionals. We facilitate the booking and payments, but we do not provide the services ourselves. Service Professionals are solely responsible for the quality and execution of the work.
+              PreHands enables you to book services with independent Service Professionals. We facilitate the booking and payments, but we do not provide the services ourselves. Service Professionals are solely responsible for the quality and execution of the work.
             </p>
           </section>
 
@@ -69,7 +69,7 @@ function TermsCustomer() {
           <section className="space-y-4 pt-6 border-t border-border/40">
             <h2 className="text-2xl font-bold text-silver">5. Pricing & Payments</h2>
             <p>
-              You are responsible for paying the service charges along with ProHands's convenience fees and any applicable taxes. Payments can be made via credit/debit cards, net banking, UPI, or cash upon completion. Prices are final and may be subject to surge pricing during periods of high demand.
+              You are responsible for paying the service charges along with PreHands's convenience fees and any applicable taxes. Payments can be made via credit/debit cards, net banking, UPI, or cash upon completion. Prices are final and may be subject to surge pricing during periods of high demand.
             </p>
           </section>
         </div>

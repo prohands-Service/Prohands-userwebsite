@@ -133,7 +133,7 @@ function TermsAndConditions() {
       pdf.setFontSize(22);
       pdf.setFont("helvetica", "bold");
       pdf.setTextColor(0, 0, 0);
-      pdf.text("ProHands", margin, y);
+      pdf.text("PreHands", margin, y);
       y += 20;
 
       pdf.setFontSize(10);
@@ -198,9 +198,9 @@ function TermsAndConditions() {
       <header className="sticky top-0 z-50 border-b border-border/60 bg-background/85 backdrop-blur-xl">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 md:py-3.5">
           <Link to="/" className="flex items-center gap-2.5 sm:gap-3 transition-opacity hover:opacity-90">
-            <img src={logoImg} alt="ProHands" className="h-8 w-8 sm:h-9 sm:w-9 md:h-10 md:w-10 rounded-full object-cover shadow-sm" />
+            <img src={logoImg} alt="PreHands" className="h-8 w-8 sm:h-9 sm:w-9 md:h-10 md:w-10 rounded-full object-cover shadow-sm" />
             <span className="font-display text-base sm:text-lg font-semibold tracking-tight text-silver">
-              Pro<span className="text-gradient-neon">Hands</span>
+              Pre<span className="text-gradient-neon">Hands</span>
             </span>
           </Link>
           <Link to="/" className="inline-flex items-center gap-2 text-sm font-medium text-muted-foreground transition-colors hover:text-primary">
@@ -228,7 +228,7 @@ function TermsAndConditions() {
                 <p className="text-xs text-muted-foreground mt-1">Last updated: {currentDate}</p>
               </div>
               <button 
-                onClick={() => downloadPDF('Terms & Conditions for Service Providers', serviceProviderTerms, 'ProHands_Terms_Service_Providers.pdf')}
+                onClick={() => downloadPDF('Terms & Conditions for Service Providers', serviceProviderTerms, 'PreHands_Terms_Service_Providers.pdf')}
                 className="inline-flex items-center gap-1.5 rounded-lg bg-primary/10 px-3 py-1.5 text-xs font-medium text-primary transition-colors hover:bg-primary/20"
               >
                 <Download className="h-3.5 w-3.5" />
@@ -239,10 +239,10 @@ function TermsAndConditions() {
             <div className="flex-1 overflow-y-auto pr-2 custom-scrollbar" style={{ maxHeight: '600px' }}>
               <div className="pb-4">
                 <div className="mb-6 flex items-center gap-3 border-b border-border/30 pb-4">
-                  <img src={logoImg} alt="ProHands" className="h-10 w-10 rounded-full object-cover" />
+                  <img src={logoImg} alt="PreHands" className="h-10 w-10 rounded-full object-cover" />
                   <div>
                     <h1 className="font-display text-lg font-bold text-foreground">
-                      Pro<span className="text-gradient-neon">Hands</span>
+                      Pre<span className="text-gradient-neon">Hands</span>
                     </h1>
                     <p className="text-[10px] uppercase tracking-wider text-muted-foreground">Terms & Conditions for Service Providers</p>
                   </div>
@@ -260,7 +260,7 @@ function TermsAndConditions() {
                 <p className="text-xs text-muted-foreground mt-1">Last updated: {currentDate}</p>
               </div>
               <button 
-                onClick={() => downloadPDF('Terms & Conditions for Customers', customerTerms, 'ProHands_Terms_Customers.pdf')}
+                onClick={() => downloadPDF('Terms & Conditions for Customers', customerTerms, 'PreHands_Terms_Customers.pdf')}
                 className="inline-flex items-center gap-1.5 rounded-lg bg-primary/10 px-3 py-1.5 text-xs font-medium text-primary transition-colors hover:bg-primary/20"
               >
                 <Download className="h-3.5 w-3.5" />
@@ -271,10 +271,10 @@ function TermsAndConditions() {
             <div className="flex-1 overflow-y-auto pr-2 custom-scrollbar" style={{ maxHeight: '600px' }}>
               <div className="pb-4">
                 <div className="mb-6 flex items-center gap-3 border-b border-border/30 pb-4">
-                  <img src={logoImg} alt="ProHands" className="h-10 w-10 rounded-full object-cover" />
+                  <img src={logoImg} alt="PreHands" className="h-10 w-10 rounded-full object-cover" />
                   <div>
                     <h1 className="font-display text-lg font-bold text-foreground">
-                      Pro<span className="text-gradient-neon">Hands</span>
+                      Pre<span className="text-gradient-neon">Hands</span>
                     </h1>
                     <p className="text-[10px] uppercase tracking-wider text-muted-foreground">Terms & Conditions for Customers</p>
                   </div>
